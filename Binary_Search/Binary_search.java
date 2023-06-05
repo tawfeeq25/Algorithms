@@ -1,6 +1,6 @@
 import java.util.Scanner;//importing scanner package from java.util
 public class Binary_search{
-	//linear search algorithm
+	//binary search algorithm
 	static void search(int arr[],int k,int n)
 	{
 		int l=0;
