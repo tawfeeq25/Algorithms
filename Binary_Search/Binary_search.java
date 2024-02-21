@@ -20,6 +20,26 @@ public class Binary_search{
 				r=m-1;
 			}
 		}
+		// where the element can be entered
+		if(nums[l]==target){
+           	 return l;
+       		 }
+    
+        if(r==-1){
+            return 0;
+        }
+        else if(target<nums[r]){
+             if(r==0){
+                return 0;
+            }
+            else{
+                return r;
+            }
+        }
+        else{
+            return r+1;
+        }
+//code ends
 		if(flag==0){
 			System.out.println("Element not found");
 		}
